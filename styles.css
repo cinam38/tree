@@ -1,0 +1,284 @@
+body{
+	background-color: #f3f3df;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	flex-direction: column; /* Stacks content vertically */
+}
+
+body {
+  flex: 1; /* Allows the body to expand and contract as needed */
+}
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3f3df;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    color: rgba(21, 190, 46, 0.667);
+    font-size: 2.5em;
+  }
+  
+  .content p {
+    color: rgb(19, 203, 19);
+    margin-top: 20px;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toggle-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .signup-prompt {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-link {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Add your existing styles here */
+  
+  /* Styles to toggle active button */
+  .toggle-btn.active {
+    font-weight: bold;
+    color: #76B947;
+    background-color: #fff;
+  }
+  
+  /* You may add more styles to distinguish between Worker and Helper */
+  /* Add your existing styles here */
+  
+  .help-tree-container {
+      background-color: #e7ffe7;
+      padding: 20px;
+      border-radius: 10px;
+      width: 400px;
+      margin: auto;
+  }
+  
+  .help-tree-container h2 {
+      color: #2b2b2b;
+  }
+  
+  .input-group {
+      margin-bottom: 15px;
+  }
+  
+  .input-group label {
+      display: block;
+      color: #2b2b2b;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  
+  .submit-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+  }
+  
+  .thank-you-message p {
+      font-size: 1.5em;
+      text-align: center;
+      color: #4CAF50;
+  }
+  
+
+  .footer-bottom {
+    background-color: hsl(115, 40%, 37%);
+    margin-top: 20px;
+    padding-block: 20px;
+    font-size: 1.4rem;
+    color: #fff; /* This sets the text color to white for everything in the footer-bottom */
+  }
+  
+  /* Ensures that the text alignment and color are set correctly for copyright */
+  .copyright {
+    text-align: center;
+    line-height: 1.7;
+    margin-block-end: 10px;
+    color: #fff; /* Ensures text color is white */
+  }
+  
+  /* No changes needed here if only color is to be white */
+  .copyright-link {
+    display: inline-block;
+    color: #fff;
+  }
+  
+  .footer-bottom-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #fff; /* Ensures text color is white */
+  }
+
+  .footer-bottom {
+    background-color: hsl(115, 40%, 37%); /* Dark green background */
+    margin-top: auto; /* Pushes the footer to the bottom */
+    padding: 20px 0; /* Vertical padding only */
+    font-size: 1.4rem;
+    color: #fff; /* White text color */
+    text-align: center; /* Centers the text */
+  }
+  
+  .footer-bottom a {
+    color: #fff; /* Ensures that all links are also white */
+    text-decoration: none; /* Removes underline from links */
+    padding: 0 10px; /* Adds horizontal padding to each link for better spacing */
+  }
+  
+  .footer-bottom-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Maintains spacing between links */
+  }  
+
+
+
+
+
+
+
+  /* tree */
+  .form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+h2 {
+    color: #27ae60;
+    font-size: 24px;
+}
+.form-field {
+    margin-bottom: 10px;
+}
+.form-field input[type='text'],
+.form-field input[type='file'] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #bdc3c7;
+}
+.form-field input[type='submit'] {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.form-field input[type='submit']:hover {
+    background-color: #2ecc71;
+}
+.required-star {
+    color: red;
+}
+
+
+
+
+/* about */
+.team-member {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+}
+
+.profile-picture img {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  border-radius: 50%;
+}
+
+.team-info h3 {
+  margin: 10px 0;
+}
+
+.team-info p {
+  margin: 5px 0;
+}
+
+
+.team-member {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.team-icon img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.team-info {
+  display: none; /* Initially hide the information */
+}
