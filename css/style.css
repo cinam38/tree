@@ -1,0 +1,514 @@
+body{
+	background-color: #f3f3df;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	flex-direction: column; /* Stacks content vertically */
+}
+body {
+	flex: 1; /* Allows the body to expand and contract as needed */
+  }
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+	text-decoration: none;
+}
+
+.page-title h1 {
+	text-align: center;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+/* Home Page CSS Start */
+.navbar-toggler {
+    background-color: #000; /* Sets the background color to black */
+}
+.navbar-brand img {
+	width: 80px;
+	height: auto;
+} 
+.bg-light {
+	background-color: #faf9e7 !important;
+	height: 100px;
+	box-shadow: 0px -1px 5px 0px;
+	margin-bottom: 50px;
+	z-index: 999;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0,0,0,.55);
+	border-radius: 50px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 8px 30px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+	color: rgba(0,0,0,.9);
+	background-color: #08bf01bc;
+	border-radius: 50px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: rgba(0,0,0,.7);
+	background-color: #00da2cdf;
+}
+
+.d-flex a i {
+	background-color: #497a43;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 20px;
+	padding: 10px;
+	font-weight: 600;
+}
+.banner {
+	padding: 50px;
+	text-align: center;
+} 
+.banner-left-area {
+	margin-top: 80px;
+} 
+.banner-left-area h1 {
+	font-weight: 800;
+	color: #18e02f;
+	margin-bottom: 20px;
+	font-size: 80px;
+}
+.banner-right-area img {
+	width: 100%;
+	height: auto;
+}
+
+.login-btn {
+  background-color: #29af04;
+  padding: 8px 15px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.login-btn:hover{
+	color: #fff;
+	background-color: #0a58ca;
+	transition: .3s all;
+}
+.navbar-toggler {
+    background-color: #000 !important; /* Forces the background to be black */
+}
+
+/* Home Page CSS End */
+
+/* Book-Now Page CSS Start */
+.book-now{
+	margin-bottom: 40px;
+}
+.book-now-bg{
+	position: relative;
+	background-image: url('../images/book-now.jpg');
+	height: 115vh;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px;
+} 
+.book-now-bg:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background-color: #e178275e;
+}
+.book-now-left-area, .book-now-right-area {
+	z-index: 1;
+	position: relative;
+}
+
+.book-now-left-area {
+	margin-top: 100px;
+}
+.book-now-left-area h1 {
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+
+.book-now-form {
+	background-color: #fff;
+	padding: 50px 30px;
+	border-radius: 10px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	position: relative;
+}
+.book-now-form h1 {
+	font-weight: 800;
+}
+.book-now-form p {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.align-items-center {
+	align-items: center !important;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.form-label {
+	margin-bottom: 15px;
+	font-weight: 600;
+	font-size: 16px;
+}
+.form-select-lg{
+	font-size: 15px;
+}
+.textarea{
+	display: block;
+	width: 100%;
+	padding:  15px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #24c500;
+	border-color: #0acc00;
+}
+
+.buttons-flex {
+	margin-top: 40px;
+}
+.buttons-flex button {
+	background-color: #089a2a;
+	border: none;
+	margin-right: 20px;
+	font-weight: 600;
+}
+   
+.counter {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  position: absolute;
+  top: 68.6%;
+  right: -10%;
+}
+ 
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 7px 0;
+  background: #eee;
+  height: 40px;
+  font-weight: 600;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+.counter #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+.counter #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+.counter #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 40px;
+  height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Book-Now Page CSS End */
+
+/* About Page CSS Start */
+
+.about-us-item img {
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+}
+
+.about-us-item {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 30px;
+	margin-bottom: 50px;
+}
+
+.about-us-item .title {
+	margin-top: -75px !important;
+	text-align: center;
+	background-color: #0fd226;
+	width: 200px;
+	position: relative;
+	height: 75px;
+	margin: auto;
+	line-height: 80px;
+	font-weight: 800;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	color: #000;
+}
+/* About Page CSS End */
+
+/* Contact Page CSS Start */
+
+.contact-w {
+	background-color: #fff;
+	width: 90%;
+	margin: auto;
+}
+.contact-left-area-p{
+	padding: 0;
+}
+.contact-left-area img {
+	width: 100%;
+	height: auto;
+}
+.contact-right-area {
+	margin-top: 150px;
+	padding: 50px 80px;
+}
+.contact-info span {
+	color: #666;
+	font-weight: 600;
+}
+.social-info i {
+	margin: 10px 10px;
+	font-weight: 600;
+	font-size: 25px;
+	color: #0ec911;
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	padding: 15px;
+	border-radius: 50%;
+}
+/* Contact Page CSS End */
+
+/* Registration Page CSS End */
+
+.logo {
+	text-align: center;
+}
+.logo img {
+	width: 200px;
+	height: auto;
+}
+/* Registration Page CSS End */
+
+/* Login Page CSS Start */
+.login{
+	height: 100vh;
+	background: url("https://cdn.pixabay.com/photo/2023/04/18/15/18/ai-generated-7935368_960_720.jpg");
+	background-position: center;
+	background-size: cover;
+} 
+.box{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 400px;
+	width: 400px;
+	backdrop-filter: blur(2px);
+	background-color: #00000061;
+	border-radius: 20px;
+}
+.box .content{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	/* text-align: center; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+} 
+.box .content h1{
+	position: relative;
+	top: -30px;
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+}
+.box input{
+	width: 300px;
+	height: 10px;
+	padding: 25px;
+	outline: none;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 20px;
+}  
+.box .btn{
+	width: 100px;
+	cursor: pointer;
+	border: none;
+	border-radius: 30px;
+	transition: all .3s ;
+	transition-timing-function: ease-in-out;
+	color: #fff;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 2px solid #fff;
+	padding: 8px 10px;
+}
+.box .btn1{
+	margin-left: 10px;
+} 
+.btn:hover{
+	background-color: #0a58ca;
+	color: white;
+}
+.box a{
+	color: white;
+	text-decoration: none;
+	transition: all .3s ;
+	transition-timing-function: ease-in-out;
+}
+.box a:hover{
+	color: grey;
+}
+.box .link{
+	position:absolute;
+	bottom:0;
+}
+/* Login Page CSS End */
+
+
+/* Responsive CSS Start */
+@media screen and (max-width: 992px) {
+	.banner-left-area h1{
+		font-size: 50px;
+	}
+	.nav-item{
+		text-align: center;
+	}
+	.nav-item a{
+		display: inline-block;
+	}
+	.d-flex {
+		text-align: center;
+		justify-content: space-evenly;
+	}
+	.navbar-collapse {
+		background-color: #f2f2f2;
+		padding: 50px;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link{
+		margin-bottom: 20px;
+	}
+	.book-now-bg{
+		padding: 0px 20px;
+	}
+	.book-now-left-area{
+		margin-top: 50px;
+	}
+	.contact-right-area{
+		margin-top: 80px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.banner{
+		padding: 0px;
+	}
+	.container, .container-sm{
+		max-width: 100%;
+	}
+	.contact-w{
+		width: 100%;
+	}
+	.book-now-bg{
+		height: 130vh;
+		padding: 0px;
+	} 
+	.book-now-left-area{
+		margin-top: 50px;
+	}
+	.col-auto{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 500px) {
+	.banner-left-area h1{
+		font-size: 40px;
+	}
+	.contact-right-area{
+		padding: 50px;
+	}
+	.box{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 400px) {
+	.banner-left-area h1{
+		font-size: 30px;
+	}
+	.contact-right-area{
+		padding: 20px;
+	}
+}
+/* Responsive CSS End */
+
+
+
+.thank-you-container {
+	text-align: center;
+	padding: 50px;
+  }
+  .checkmark-icon {
+	width: 100px;
+	height: 100px;
+	background-color: #27ae60;
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 100px;
+	margin: 20px;
+  }
+  .checkmark-icon:before {
+	content: '✓';
+	color: white;
+	font-size: 60px;
+  }
+  .thank-you-message {
+	font-size: 24px;
+	color: #27ae60;
+	margin-top: 20px;
+  }
+  
